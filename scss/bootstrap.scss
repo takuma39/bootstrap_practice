@@ -50,3 +50,24 @@
 // Utilities
 @import "utilities/api";
 // scss-docs-end import-stack
+
+body{
+    background-color: rgb(246, 248, 250);
+}
+
+.login{
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+h1{
+    text-align: center;
+}
+
+.login_reminder{
+    text-align: center;
+    a{
+        color:$body-color;
+        font-size: .8em;
+    }
+}
